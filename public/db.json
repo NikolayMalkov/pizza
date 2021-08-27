@@ -1,0 +1,17 @@
+{
+    "pizzas": [
+        { "id": 1, "name": "Tramp", "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/bc585c01ce0f4472a95b23112d81bc2e_292x292.jpeg", "descr": "Острая чоризо, соус барбекю, томаты, красный лук, моцарелла, томатный соус", "price": 700, "rating": 3, "category": "pizza-meat" },
+        { "id": 2, "name": "Chily", "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/dc5dc4e9-932a-4abf-9472-dfb6326ea9ee.jpg", "descr": "Острый цыпленок, острый перец халапеньо, соус сальса, томаты, сладкий перец, красный лук, моцарелла, томатный соус", "price": 900, "rating": 4.5, "category": "pizza-hot" },
+        { "id": 3, "name": "Cheese", "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/ebf8b8670d6b4f078d9afa616d01202a_292x292.jpeg", "descr": "Моцарелла, сыры чеддер и пармезан, соус альфредо", "price": 650, "rating": 5, "category": "pizza-cheese" }
+    ],
+    "burgers": [
+        { "id": 1, "name": "Humburger", "img": "https://i5.stat01.com/1/9977/99763784/795f32/gamburger.jpg", "descr": "Гамбургер с сочной котлетой из говядины и сыром чеддер", "price": 150, "rating": 3, "category": "burgers-meat" },
+        { "id": 2, "name": "Cheeseburger", "img": "https://smachno.ua/wp-content/uploads/2018/05/14/Depositphotos_10957284_m-2015.jpg", "descr": "Чизбургер со свежим салатом и сыром", "price": 120, "rating": 4.5, "category": "burgers-cheese" },
+        { "id": 3, "name": "Grillburger", "img": "https://img.povar.ru/uploads/fb/a0/8d/f1/ovoshnie_burgeri-588385.jpeg", "descr": "Вегетарианский бургер с нутовой котлетой, салатом и свежими помидорами", "price": 200, "rating": 1.5, "category": "burgers-vegan" }
+    ],
+    "sushi": [
+        { "id": 1, "name": "phila", "img": "https://static-sl.insales.ru/images/products/1/38/197337126/350%D1%80%D0%BE%D0%BB%D0%BB_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F.jpg", "descr": "Классический ролл филадельфия с лососем", "price": 300, "rating": 5 },
+        { "id": 2, "name": "kalifornia", "img": "https://img.povar.ru/main/a2/23/93/b8/rolli_kaliforniya-31718.jpg", "descr": "Ролл калифорния с тунцом", "price": 280, "rating": 4 },
+        { "id": 3, "name": "lava", "img": "https://sushi-hino.ru/images/stories/virtuemart/product/f_785.jpg", "descr": "Ролл лава с креветкой", "price": 350, "rating": 5 }
+    ]
+}

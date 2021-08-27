@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import mainstyles from './css/main.module.css';
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import { store } from './store/store';
+import { Provider } from 'react-redux'
+import { Container } from '@material-ui/core';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Container>
+      <Provider store={store}>
+        <Router>
+          <div className={mainstyles.wrap}>
+            <Header />
+            <Main />
+            <Footer />
+          </div>
+        </Router>
+      </Provider>
+    </Container>
+
+
   );
 }
 

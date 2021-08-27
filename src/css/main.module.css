@@ -1,0 +1,135 @@
+
+.wrap{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1 fr;
+    /* border: 1px solid black; */
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+                         
+}
+
+.header{
+    /* border: 1px solid red; */
+    height: 200px;
+    grid-area: header;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.main{
+    /* border: 1px solid green; */
+    width: 100%;
+    grid-area: main;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+
+}
+
+.footer{
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 200px;
+    grid-area: footer;
+    margin: 0 auto
+}
+
+.nav{
+    display: flex;
+    background-color:greenyellow;
+    width: 100%;
+    justify-content: space-between;
+
+    /* border: 2px solid black; */
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.links{
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+}
+
+.links ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.links li{
+    display: inline-block;
+    margin: 20px;
+    list-style-type: none;
+    line-height: 50px;
+    padding: 10px;
+    
+}
+
+.contentWrap{
+    display: flex;
+    flex-flow: wrap;
+    width: 90%;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.shopcart{
+    margin-right: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    color: black
+}
+
+.shopcart div{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.orders{
+    margin: 0;
+    padding: 0;
+}
+
+.orders li{
+    line-height: 50px;
+    background-color:rgba(255, 255, 255, .1);
+    list-style-type: none;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.orderwrap{
+    border: 1px solid greenyellow;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.orderwrap div{
+    /* border: 1px solid white; */
+    /* margin-right: 50px;
+    margin-left: 50px; */
+}
